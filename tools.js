@@ -10,9 +10,9 @@ const TOOL_LIST = [
     path: "/tools/ip6toarpa.html" // 路径从根目录'/'开始
   },
   {
-    name: "JSON 格式化工具",
-    description: "美化或压缩 JSON 字符串，并提供语法高亮。",
-    path: "/tools/json-formatter.html"
+    name: "节点配置转换器",
+    description: "节点配置转换器。",
+    path: "/tools/jiedian.html"
   },
   {
     name: "时间戳转换",
