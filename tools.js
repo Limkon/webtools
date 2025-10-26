@@ -1,0 +1,30 @@
+// tools.js
+// 描述: 工具列表配置文件
+// 在此文件中添加新的工具条目，主页(index.html)将自动更新。
+
+// 定义全局工具列表
+const TOOL_LIST = [
+  {
+    name: "字符串工具",
+    description: "提供字符串大小写转换、计数、反转等功能。",
+    path: "/tools/string-util.html" // 路径从根目录'/'开始
+  },
+  {
+    name: "JSON 格式化工具",
+    description: "美化或压缩 JSON 字符串，并提供语法高亮。",
+    path: "/tools/json-formatter.html"
+  },
+  {
+    name: "时间戳转换",
+    description: "在日期时间和 Unix 时间戳之间相互转换。",
+    path: "/tools/timestamp.html"
+  }
+  // --- 在这里添加新工具 ---
+  // 示例:
+  // {
+  //   name: "新工具名称",
+  //   description: "新工具的简短描述。",
+  //   path: "/tools/new-tool.html"
+  // }
+  // --------------------------
+];
