@@ -5,9 +5,9 @@
 // 定义全局工具列表
 const TOOL_LIST = [
   {
-    name: "字符串工具",
-    description: "提供字符串大小写转换、计数、反转等功能。",
-    path: "/tools/string-util.html" // 路径从根目录'/'开始
+    name: "IPv6 → ip6.arpa 反向域名转换器",
+    description: "IPv6 → ip6.arpa 反向域名转换器功能。",
+    path: "/tools/ip6toarpa.html" // 路径从根目录'/'开始
   },
   {
     name: "JSON 格式化工具",
