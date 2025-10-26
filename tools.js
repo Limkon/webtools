@@ -15,9 +15,9 @@ const TOOL_LIST = [
     path: "/tools/jiedian.html"
   },
   {
-    name: "时间戳转换",
-    description: "在日期时间和 Unix 时间戳之间相互转换。",
-    path: "/tools/timestamp.html"
+    name: "文本隐写工具",
+    description: "文本隐写工具。",
+    path: "/tools/yinxie.html"
   }
   // --- 在这里添加新工具 ---
   // 示例:
