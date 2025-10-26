@@ -18,6 +18,11 @@ const TOOL_LIST = [
     name: "文本隐写工具",
     description: "文本隐写工具。",
     path: "/tools/yinxie.html"
+  },
+  {
+    name: "其他网址",
+    description: "其他网络址。",
+    path: "/tools/yang.html"
   }
   // --- 在这里添加新工具 ---
   // 示例:
