@@ -1,0 +1,111 @@
+/* style.css */
+/* 描述: 全局样式表 */
+
+/* --- 基础重置和全局变量 --- */
+:root {
+  --primary-color: #0056b3;
+  --card-bg: #ffffff;
+  --body-bg: #f4f7f6;
+  --text-color: #333;
+  --text-light: #555;
+  --border-color: #ddd;
+  --shadow-light: rgba(0, 0, 0, 0.05);
+  --shadow-hover: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.6;
+  background-color: var(--body-bg);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+/* --- 布局容器 --- */
+header, main, footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 2px solid var(--border-color);
+  background-color: var(--card-bg);
+}
+
+header h1 {
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1em;
+  color: var(--text-light);
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
+
+main h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+  font-size: 1.8em;
+}
+
+/* --- 工具网格布局 --- */
+#tool-grid-container {
+  display: grid;
+  /* 响应式网格：
+     - 最小 320px
+     - 自动填充，尽可能多地放入列
+  */
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 25px;
+}
+
+.loading-placeholder {
+  text-align: center;
+  color: var(--text-light);
+  font-style: italic;
+}
+
+/* --- 工具卡片样式 --- */
+.tool-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 25px;
+  text-decoration: none; /* 移除 'a' 标签的下划线 */
+  color: inherit; /* 继承 body 的颜色 */
+  box-shadow: 0 2px 5px var(--shadow-light);
+  /* 过渡效果 */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.tool-card:hover,
+.tool-card:focus {
+  transform: translateY(-5px); /* 悬停时轻微上浮 */
+  box-shadow: 0 5px 15px var(--shadow-hover);
+  outline: 2px solid var(--primary-color); /* 焦点样式 */
+  outline-offset: 2px;
+}
+
+.tool-card .card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--primary-color); /* 卡片标题颜色 */
+  font-size: 1.3em;
+}
+
+.tool-card .card-description {
+  font-size: 0.95em;
+  color: var(--text-light);
+  margin-bottom: 0;
+}
