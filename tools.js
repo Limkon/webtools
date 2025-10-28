@@ -20,6 +20,11 @@ const TOOL_LIST = [
     path: "/tools/yinxie.html"
   },
   {
+    name: "IP6.ARPA域名自动添加SSL证书",
+    description: "IP6.ARPA域名自动添加SSL证书。",
+    path: "https://www.jxs.dix.asia/"
+  },
+  {
     name: "其他网址",
     description: "其他网络址。",
     path: "/tools/yang.html"
