@@ -25,6 +25,11 @@ const TOOL_LIST = [
     path: "https://www.jxs.dix.asia/"
   },
   {
+    name: "Punycode 双向转换工具",
+    description: "Punycode 双向转换工具。",
+    path: "/tools/chinese_to_punycode.html"
+  },
+  {
     name: "其他网址",
     description: "其他网络址。",
     path: "/tools/yang.html"
@@ -38,3 +43,4 @@ const TOOL_LIST = [
   // }
   // --------------------------
 ];
+
