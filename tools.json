@@ -2,7 +2,7 @@
   {
     "name": "IPv6 → ip6.arpa 反向域名转换器",
     "description": "IPv6 → ip6.arpa 反向域名转换器功能。",
-    "path": "/tools/ip6toarpa.html"
+    "path": "https://raw.githubusercontent.com/Limkon/webtools/refs/heads/master/tools/ip6toarpa.html"
   },
   {
     "name": "节点配置转换器",
