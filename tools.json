@@ -1,0 +1,32 @@
+[
+  {
+    "name": "IPv6 → ip6.arpa 反向域名转换器",
+    "description": "IPv6 → ip6.arpa 反向域名转换器功能。",
+    "path": "/tools/ip6toarpa.html"
+  },
+  {
+    "name": "节点配置转换器",
+    "description": "节点配置转换器。",
+    "path": "/tools/jiedian.html"
+  },
+  {
+    "name": "文本隐写工具",
+    "description": "文本隐写工具。",
+    "path": "/tools/yinxie.html"
+  },
+  {
+    "name": "IP6.ARPA域名自动添加SSL证书",
+    "description": "IP6.ARPA域名自动添加SSL证书。",
+    "path": "https://www.jxs.dix.asia/"
+  },
+  {
+    "name": "Punycode 双向转换工具",
+    "description": "Punycode 双向转换工具。",
+    "path": "/tools/chinese_to_punycode.html"
+  },
+  {
+    "name": "其他网址",
+    "description": "其他网络址。",
+    "path": "/tools/yang.html"
+  }
+]
