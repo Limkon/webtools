@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 动态获取工具列表的URL。假设 tools.json 部署在同一前端路径下。
-  const TOOLS_JSON_URL = './tools.json'; 
+  const TOOLS_JSON_URL = 'https://raw.githubusercontent.com/Limkon/webtools/refs/heads/master/tools.json'; 
 
   // 3. 异步获取工具列表数据
   fetch(TOOLS_JSON_URL)
